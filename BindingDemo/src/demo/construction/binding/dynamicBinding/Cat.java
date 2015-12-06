@@ -1,4 +1,4 @@
-package demo.construction.biding.dynamicBinding;
+package demo.construction.binding.dynamicBinding;
 
 public class Cat extends Animal{
 	@Override
@@ -8,5 +8,9 @@ public class Cat extends Animal{
 	
 	public void sayHelloWorld(){
 		System.out.println("Hello, World!");
+	}
+	
+	private void privateMethod(){
+		System.out.println("I'm private!");
 	}
 }

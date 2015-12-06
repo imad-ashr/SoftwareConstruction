@@ -1,4 +1,4 @@
-package demo.construction.biding.dynamicBinding;
+package demo.construction.binding.dynamicBinding;
 
 public class Animal {
 	public void whatDoYouEat(){

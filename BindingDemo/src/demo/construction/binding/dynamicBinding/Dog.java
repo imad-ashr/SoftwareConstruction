@@ -1,8 +1,5 @@
-package demo.construction.biding.dynamicBinding;
+package demo.construction.binding.dynamicBinding;
 
 public class Dog extends Animal {
-	@Override
-	public void whatDoYouEat() {
-		System.out.println("Cats!");
-	}
+
 }

@@ -8,6 +8,9 @@ package demo.construction.reflection.general;
  *
  */
 public class Car {
+	public Integer testField1;
+	public String testField2;
+	
 	private int numberOfDoors;
 	private String manufacturer;
 	public Car() {
