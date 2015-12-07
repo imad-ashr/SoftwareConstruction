@@ -20,7 +20,8 @@ public class GettingAndSettingFieldValuesSample {
 	    Field chap = c.getDeclaredField("chapters");
 	    out.format(fmt, "before", "chapters", book.chapters);
   	    chap.setLong(book, 12);
-	    out.format(fmt, "after", "chapters", chap.getLong(book));
+  	   
+	    out.format(fmt, "after->", "chapters", chap.getLong(book));
 
 	    Field chars = c.getDeclaredField("characters");
 	    out.format(fmt, "before", "characters",

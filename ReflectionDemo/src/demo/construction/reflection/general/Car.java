@@ -16,12 +16,16 @@ public class Car {
 	public Car() {
 		System.out.println("Default constructor!");
 	}
+	
 	public Car(Integer numberOfDoors, String manufacturer) {
 		this.numberOfDoors = numberOfDoors;
 		this.manufacturer = manufacturer;
 		System.out.println(String.format("Car: %s has %s doors", manufacturer, numberOfDoors));
 	}
-
+	
+	private Car(String name){
+		System.out.println("Just a private constructor!");
+	}
 	/**
 	 * @return the manufacturer
 	 */
